@@ -279,3 +279,29 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+body {
+  font-size: 14px;
+  width: 900px;
+  margin: auto;
+}
+
+#header {
+
+}
+
+#header li {
+  display: inline-block;
+  color: blue;
+  border-bottom: solid 1px blue;
+  padding: 5px 10px 5px 20px;
+  margin: 5px 10px 5px 20px;
+}
+
+#header .active {
+  background-color: #EEE;
+}
+
+#header .red {
+  color: red;
+}
